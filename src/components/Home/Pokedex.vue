@@ -2,7 +2,7 @@
         <div class="container pokedex row" >
             <side-left class="col"/>
             <divider class="col-12 col-sm-1 "/>
-            <side-right-main :class="{col:true,open:true,close:isClose}" @click="isClose=!isClose"/>
+            <side-right-main :class="{col:true,open:true,close:this.$store.state.isOpen}" />
         </div>
         
 </template>
@@ -19,9 +19,9 @@ export default {
         Divider,
        
     },
+   
     data(){
         return{
-          isClose:false
         }
     },
 
@@ -45,6 +45,7 @@ export default {
     .pokedex{
         height: 80vh;
         width:100%;
+        min-width: 400px;
         display: flex;
         flex-direction: column;
         margin: auto;

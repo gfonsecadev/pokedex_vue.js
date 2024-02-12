@@ -1,5 +1,5 @@
 <template>
-  <div class="back">
+  <div class="back" @click="this.$store.commit('open_or_close')">
     <img src="../../assets/pokedex_logo.svg" alt="Pokedex"/>
   </div>
 </template>
@@ -24,6 +24,7 @@ export default {
     position:absolute;
     transform: rotate(180deg) rotateY(180deg) ;
     backface-visibility: hidden;
+    cursor: pointer;
 }
 .back img{
   height: 5rem;

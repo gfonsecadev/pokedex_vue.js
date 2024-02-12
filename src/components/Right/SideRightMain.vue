@@ -1,6 +1,6 @@
 <template>
       <div  id="front_back">
-         <side-right />
+         <side-right   />
          <back-pokedex /> 
       </div>
 </template>
@@ -21,7 +21,7 @@ export default {
      #front_back{  
         position:relative;
         transform-style: preserve-3d;
-        cursor: pointer;  
+        
     }
 
 

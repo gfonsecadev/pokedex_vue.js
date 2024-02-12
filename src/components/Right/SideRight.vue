@@ -1,6 +1,7 @@
 <template>
-    <div :class="{right:true}"  >
-       <side-right-list v-if="1"/>
+    <div class="right"  >
+        <side-right-list />
+        <button class="button" @click="this.$store.commit('open_or_close')"></button>
     </div>
 </template>
 
@@ -32,7 +33,7 @@ export default {
 <style scoped>
  .right{
         background: linear-gradient( rgb(240, 95, 66),rgb(118, 1, 1));
-        box-shadow: inset 0 5px 5px 5px rgb(19, 5, 5), inset 0 -5px 10px 10px  rgb(22, 6, 4);
+        box-shadow:  0 0 5px 2px rgb(11, 0, 0), inset 0 5px 5px 5px rgb(19, 5, 5), inset 0 -5px 10px 10px  rgb(22, 6, 4);
         border-radius:8px 8px 5px 5px;
         height: 100%;
         width:100%;
@@ -42,7 +43,15 @@ export default {
         position:absolute;
         padding: 1rem;
         backface-visibility: hidden;
-        z-index: 0;
+        
+    }
+    .button{
+        width:40px;
+        height: 40px;
+        margin: 6px auto;
+        border-radius: 50%;
+        background-color:rgb(221, 211, 23);
+        box-shadow:0 2px 2px 5px rgb(42, 6, 6), inset 0 0 10px 2px rgb(93, 8, 8)
     }
 
 

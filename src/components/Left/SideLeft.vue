@@ -1,21 +1,26 @@
 <template>
     <div class="left">
-        <side-left-show/>
-        <side-left-detal/>
+        <side-left-show :image="pokemon.imagem" />
+        <side-left-detail />
     </div>
+    
 </template>
 
 <script>
-import SideLeftDetal from './SideLeftDetal.vue'
+import { mapState } from 'vuex'
+import SideLeftDetail from './SideLeftDetail.vue'
 import SideLeftShow from './SideLeftShow.vue'
-
 export default {
     name:"SideLeft",
     components: {
         SideLeftShow,
-        SideLeftDetal
+        SideLeftDetail
         
+    },
+    computed:{
+        ...mapState({pokemon:(state)=>state.pokemon_click})
     }
+   
 }
 </script>
 
