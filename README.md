@@ -1,4 +1,9 @@
-# my_pokedex
+# Pokedex
+Esta é uma aplicação elaborada na pokedex e desenvolvida com VUE.JS
+
+## Screenshots
+
+
 
 ## Project setup
 ```
