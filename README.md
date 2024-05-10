@@ -7,7 +7,7 @@ Esta é uma aplicação elaborada na pokedex e desenvolvida com VUE.JS
 ![image](https://github.com/gfonsecadev/pokedex_vue.js/assets/90278833/e0f65d74-1b6e-48c2-9dd8-dfa77a5c9ccd)  
 ![image](https://github.com/gfonsecadev/pokedex_vue.js/assets/90278833/777c92ce-f828-4883-a85b-31e0a67a8018)  
 
-### Link da aplicação: http://pokedex-vue-js-five.vercel.app
+### Link da aplicação: https://pokedex-vue-js-five.vercel.app
 
 
 
