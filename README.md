@@ -1,5 +1,5 @@
 # Pokedex
-Esta é uma aplicação elaborada na pokedex e desenvolvida com VUE.JS
+Esta é uma aplicação elaborada na pokedex e desenvolvida com VUE.JS 
 
 ## Screenshots
 ![image](https://github.com/gfonsecadev/pokedex_vue.js/assets/90278833/383bb062-a35e-4fd6-ae94-79b2e52374c4)  
